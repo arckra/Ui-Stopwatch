@@ -19,11 +19,7 @@ Struktur file yang jelas: folder gambar, README, source code Android.
 
 Contoh file yang ada:
 
-```
-Home screen.jpg, Splash screen 1.jpg, Stopwatch screen - start.jpg
-```
-, dll: gambar tampilan aplikasi. 
-GitHub
+**Home screen.jpg, Splash screen 1.jpg, Stopwatch screen - start.jpg** , dll: gambar tampilan aplikasi. 
 
 README.md (ini) sebagai dokumentasi awal.
 
