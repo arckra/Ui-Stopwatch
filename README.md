@@ -27,3 +27,7 @@ README.md (ini) sebagai dokumentasi awal.
 Folder source code Android (asumsinya).
 
 File asset desain UI.
+
+---
+
+![Ui and wireframe - timer](https://github.com/user-attachments/assets/eb6d2252-fa1a-46b5-91b0-3a3bcf440fb0)
