@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Snamer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Untuk widget Android biasa -->
+        <item name="android:fontFamily">@font/itim_regular</item>
+
+        <!-- Untuk Material Components / AppCompat -->
+        <item name="fontFamily">@font/itim_regular</item>
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

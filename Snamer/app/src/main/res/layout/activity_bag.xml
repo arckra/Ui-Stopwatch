@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E8789">
+
+    <!-- EMPTY STATE -->
+    <TextView
+        android:id="@+id/txtEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tas Kosong"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNav"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- GRID ITEMS -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBag"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="14dp"
+        android:clipToPadding="false"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNav"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- NAVBAR (SAMA SEPERTI YANG LAIN) -->
+    <LinearLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/bg_bottom_nav_item"
+            android:clickable="true"
+            android:focusable="true">
+            <ImageView
+                android:id="@+id/iconHome"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/taskbar_home"
+                android:tint="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navTimer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/bg_bottom_nav_item"
+            android:clickable="true"
+            android:focusable="true">
+            <ImageView
+                android:id="@+id/iconTimer"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/taskbar_timer"
+                android:tint="@android:color/black" />
+        </LinearLayout>
+
+        <!-- BAG TAB -->
+        <LinearLayout
+            android:id="@+id/navHistory"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/bg_bottom_nav_item"
+            android:clickable="true"
+            android:focusable="true">
+            <ImageView
+                android:id="@+id/iconHistory"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/taskbar_bag"
+                android:tint="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navReward"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/bg_bottom_nav_item"
+            android:clickable="true"
+            android:focusable="true">
+            <ImageView
+                android:id="@+id/iconReward"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/taskbar_shop"
+                android:tint="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/bg_bottom_nav_item"
+            android:clickable="true"
+            android:focusable="true">
+            <ImageView
+                android:id="@+id/iconProfile"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/taskbar_profile"
+                android:tint="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
