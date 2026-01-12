@@ -38,7 +38,7 @@ Folder source code Android (asumsinya).
 
 2. 💾 **Storyboard Project**
    Visualisasi alur aplikasi dari awal hingga akhir untuk memberikan gambaran jelas mengenai pengalaman pengguna secara menyeluruh.
-   👇 [](https://www.figma.com/design/j5mqWYfPqz7m3mhYEm5Dlz/Ui-and-wireframe---timer?node-id=201-6&t=1PRbb1ZW9tYckVID-1)
+   👇 [Storyboard](https://www.figma.com/design/j5mqWYfPqz7m3mhYEm5Dlz/Ui-and-wireframe---timer?node-id=201-6&t=1PRbb1ZW9tYckVID-1)
 
 3. 💾 **Mockup Project**
    Representasi tampilan aplikasi secara detail sebagai acuan desain final sebelum masuk tahap pengembangan.
